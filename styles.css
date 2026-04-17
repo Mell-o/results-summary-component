@@ -54,6 +54,7 @@ body {
     align-items: center;
     background: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
     border-radius: 1.75rem;
+    color: var(--White);
 }
 
 .circle {
