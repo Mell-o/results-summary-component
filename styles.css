@@ -57,7 +57,7 @@ body {
     color: var(--White);
 }
 
-.circle {
+.score-circle {
     background: linear-gradient(var(--Violet-blue), var(--Persian-blue));
     display: flex;
     flex-direction: column;
@@ -66,6 +66,21 @@ body {
     border-radius: 50%;
     width: 200px;
     height: 200px;
+}
+
+.score-value,
+.score-total {
+    display: block;
+}
+
+.score-value {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.score-total {
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.4);
 }
 
 .summary {
