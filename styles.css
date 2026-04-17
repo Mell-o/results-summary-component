@@ -43,7 +43,7 @@ body {
 .main-card{
     display: flex;
     width: 700px;
-    height: 500px;
+    height: 480px;
     background: var(--White);
     border-radius: 1.75rem;
 }
