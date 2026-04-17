@@ -56,6 +56,10 @@ body {
     border-radius: 1.75rem;
 }
 
+.circle {
+    background: linear-gradient(var(--Violet-blue), var(--Persian-blue));
+}
+
 .summary {
     display: flex;
     flex-direction: column;
