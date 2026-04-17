@@ -54,7 +54,12 @@ body {
     align-items: center;
     background: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
     border-radius: 1.75rem;
-    color: var(--White);
+    color: hsla(0, 0%, 100%, 0.7);
+}
+
+.results-title {
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .score-circle {
@@ -76,6 +81,7 @@ body {
 .score-value {
     font-size: 60px;
     font-weight: bold;
+    color: var(--White);
 }
 
 .score-total {
