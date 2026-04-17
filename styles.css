@@ -25,7 +25,12 @@
     font-style: normal;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     font-family: "Hanken Grotesk", sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -36,5 +41,17 @@ body {
 
 .main-card{
     display: flex;
-    width: 500px;
+    border: 1px dotted blue;
+    width: 700px;
+    height: 500px;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
 }
