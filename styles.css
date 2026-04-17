@@ -37,6 +37,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: var(--Pale-blue);
 }
 
 .main-card{
@@ -48,9 +49,11 @@ body {
 .results {
     display: flex;
     flex-direction: column;
+    background: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
 }
 
 .summary {
     display: flex;
     flex-direction: column;
+    background: var(--White);
 }
