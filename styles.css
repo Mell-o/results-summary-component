@@ -119,6 +119,7 @@ body {
 .summary-title {
     font-size: 20px;
     margin-bottom: 0;
+    color: var(--Dark-gray-blue);
 }
 
 .categories {
@@ -133,7 +134,15 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    border: dotted red 1px;
+    border-radius: 10px;
+    padding: 0 14px 0 45px;
+    position: relative;
+}
+
+.category img {
+    position: absolute;
+    top: 15px;
+    left: 14px;
 }
 
 .reaction-cat {
@@ -154,4 +163,14 @@ body {
 .visual-cat {
     color: var(--Cobalt-blue);
     background: hsla(234,85%, 45%, 0.07);
+}
+
+.continue-btn {
+    margin-top: 40px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    color: var(--White);
+    background: var(--Dark-gray-blue);
+    font-size: 17px;
 }
