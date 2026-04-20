@@ -61,7 +61,7 @@ body {
 }
 
 .results-title {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -112,4 +112,8 @@ body {
     background: var(--White);
     border-top-right-radius: 1.75rem;
     border-bottom-right-radius: 1.75rem;
+}
+
+.summary-title {
+    font-size: 20px;
 }
