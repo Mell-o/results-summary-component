@@ -92,6 +92,17 @@ body {
     color: hsla(0, 0%, 100%, 0.4);
 }
 
+.result-message-label {
+    margin-top: 30px;
+    color: var(--White);
+    font-size: 24px;
+}
+
+.result-message-text {
+    margin-top: 0;
+    border: pink dotted 1px;
+}
+
 .summary {
     display: flex;
     flex-direction: column;
