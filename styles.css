@@ -110,6 +110,8 @@ body {
     flex-direction: column;
     width: 350px;
     background: var(--White);
+    box-sizing: border-box;
+    padding: 25px 45px 0 45px;
     border-top-right-radius: 1.75rem;
     border-bottom-right-radius: 1.75rem;
 }
