@@ -165,6 +165,10 @@ body {
     background: hsla(234,85%, 45%, 0.07);
 }
 
+.cat-score {
+    color: var(--Dark-gray-blue);
+}
+
 .continue-btn {
     margin-top: 40px;
     height: 50px;
