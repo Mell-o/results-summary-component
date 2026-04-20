@@ -56,12 +56,13 @@ body {
     background: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
     border-radius: 1.75rem;
     color: hsla(0, 0%, 100%, 0.7);
+    padding: 25px 45px 0 45px;
+    box-sizing: border-box;
 }
 
 .results-title {
     font-size: 18px;
     font-weight: 500;
-    margin-top: 35px;
 }
 
 .score-circle {
@@ -94,13 +95,14 @@ body {
 
 .result-message-label {
     margin-top: 30px;
+    margin-bottom: 0;
     color: var(--White);
     font-size: 24px;
 }
 
 .result-message-text {
-    margin-top: 0;
-    border: pink dotted 1px;
+    margin: 18px 0 0 0;
+    text-align: center;
 }
 
 .summary {
