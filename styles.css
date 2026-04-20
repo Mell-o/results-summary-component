@@ -132,6 +132,26 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 45px;
+    height: 50px;
     border: dotted red 1px;
+}
+
+.reaction-cat {
+    color: var(--Light-red);
+    background: hsla(0, 100%, 67%, 0.07);
+}
+
+.memory-cat {
+    color: var(--Orangey-yellow);
+    background: hsla(39, 100%, 56%, 0.07);
+}
+
+.verbal-cat {
+    color: var(--Green-teal);
+    background: hsla(166, 100%, 37%, 0.07);
+}
+
+.visual-cat {
+    color: var(--Cobalt-blue);
+    background: hsla(234,85%, 45%, 0.07);
 }
