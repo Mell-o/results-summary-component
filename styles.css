@@ -56,12 +56,12 @@ body {
     background: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
     border-radius: 1.75rem;
     color: hsla(0, 0%, 100%, 0.7);
-    padding: 25px 45px 0 45px;
+    padding: 23px 45px 45px 45px;
     box-sizing: border-box;
 }
 
 .results-title {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
 }
 
@@ -112,13 +112,13 @@ body {
     width: 350px;
     background: var(--White);
     box-sizing: border-box;
-    padding: 25px 45px 0 45px;
+    padding: 23px 45px 45px 45px;
     border-top-right-radius: 1.75rem;
     border-bottom-right-radius: 1.75rem;
 }
 
 .summary-title {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 0;
     color: var(--Dark-gray-blue);
 }
