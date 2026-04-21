@@ -181,4 +181,9 @@ body {
     color: var(--White);
     background: var(--Dark-gray-blue);
     font-size: 17px;
+    cursor: pointer;
+}
+
+.continue-btn:hover {
+    background: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
 }
