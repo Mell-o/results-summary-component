@@ -97,7 +97,8 @@ body {
     margin-top: 30px;
     margin-bottom: 0;
     color: var(--White);
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: 500;
 }
 
 .result-message-text {
