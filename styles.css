@@ -74,7 +74,7 @@ body {
     border-radius: 50%;
     width: 190px;
     height: 190px;
-    margin-top: 24px;
+    margin: 20px 0 0 0;
 }
 
 .score-value,
@@ -89,7 +89,7 @@ body {
 }
 
 .score-total {
-    font-size: 14px;
+    font-size: 16px;
     color: hsla(0, 0%, 100%, 0.4);
 }
 
@@ -112,7 +112,7 @@ body {
     width: 350px;
     background: var(--White);
     box-sizing: border-box;
-    padding: 23px 45px 45px 45px;
+    padding: 23px 40px 45px 40px;
     border-top-right-radius: 1.75rem;
     border-bottom-right-radius: 1.75rem;
 }
