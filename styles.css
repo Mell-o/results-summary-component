@@ -4,6 +4,13 @@
     --Orangey-yellow: hsl(39, 100%, 56%);
     --Green-teal: hsl(166, 100%, 37%);
     --Cobalt-blue: hsl(234, 85%, 45%);
+    
+    /*Soft*/
+    --Light-red-soft: hsla(0, 100%, 67%, 0.07);
+    --Orangey-yellow-soft: hsla(39, 100%, 56%, 0.07);
+    --Green-teal-soft: hsla(166, 100%, 37%, 0.07);
+    --Cobalt-blue-soft: hsla(234,85%, 45%, 0.07);
+    --Dark-gray-blue-soft: hsla(224, 30%, 27%, 0.6);
 
     /*Gradients*/
     --Light-slate-blue: hsl(252, 100%, 67%);
@@ -150,22 +157,22 @@ body {
 
 .reaction-cat {
     color: var(--Light-red);
-    background: hsla(0, 100%, 67%, 0.07);
+    background: var(--Light-red-soft);
 }
 
 .memory-cat {
     color: var(--Orangey-yellow);
-    background: hsla(39, 100%, 56%, 0.07);
+    background: var(--Orangey-yellow-soft);
 }
 
 .verbal-cat {
     color: var(--Green-teal);
-    background: hsla(166, 100%, 37%, 0.07);
+    background: var(--Green-teal-soft);
 }
 
 .visual-cat {
     color: var(--Cobalt-blue);
-    background: hsla(234,85%, 45%, 0.07);
+    background: var(--Cobalt-blue-soft);
 }
 
 .cat-score {
@@ -173,7 +180,7 @@ body {
 }
 
 .cat-score-total {
-    color: hsla(224, 30%, 27%, 0.6);
+    color: var(--Dark-gray-blue-soft);
 }
 
 .continue-btn {
