@@ -197,3 +197,12 @@ body {
 .continue-btn:hover {
     background: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
 }
+
+.attribution {
+    margin-top: 1rem;
+    color: var(--Dark-gray-blue);
+}
+
+.attribution a:hover {
+    color: var(--Light-slate-blue);
+}

@@ -18,6 +18,8 @@ The designs were created to the following widths:
 - Green teal: hsl(166, 100%, 37%)
 - Cobalt blue: hsl(234, 85%, 45%)
 
+--
+
 ## Gradients
 
 - Light slate blue (background): hsl(252, 100%, 67%)
