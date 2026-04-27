@@ -221,7 +221,7 @@ body {
         width: 100vw;
         height: fit-content;
         flex-direction: column;
-        border: none;
+        border-radius: 0;
     }
 
     .results, .summary{
@@ -257,8 +257,8 @@ body {
     }
 
     .summary {
-        border: none;
         padding: 1.5rem 2rem 1.5rem 2rem;
+        border-radius: 0;
     }
 
     .summary-title {
