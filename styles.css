@@ -283,4 +283,8 @@ li {
         font-size: 1.063rem;
         cursor: pointer;
     }
+
+    .attribution {
+        display: none;
+    }
 }
