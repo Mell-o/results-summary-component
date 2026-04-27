@@ -7,7 +7,7 @@ const createCategories = (data) => {
         return `
         <div class="category ${curCategory.toLowerCase()}-cat">
             <div class="cat-label">
-                <img src="${icon}">
+                <img src="${icon}" alt="">
                 <span>${curCategory}</span>
             </div>
             <div class="cat-score">
