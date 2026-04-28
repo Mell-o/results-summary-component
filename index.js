@@ -2,8 +2,8 @@ import data from "./data.json" with {type: "json"}
 
 const categories = document.querySelector(".categories")
 
-const createCategories = (data) => {
-    return data.map(({category: curCategory, score, icon}) => {
+const createCategories = (categoryData) => {
+    return categoryData.map(({category: curCategory, score, icon}) => {
         return `
         <li class="category ${curCategory.toLowerCase()}-cat">
             <div class="cat-label">
@@ -18,8 +18,8 @@ const createCategories = (data) => {
     })
 }
 
-const renderCategories = (categories, curCategories) => {
-    categories.innerHTML = curCategories.join("")
+const renderCategories = (containerEl, categoryItems) => {
+    containerEl.innerHTML = categoryItems.join("")
 }
 
 renderCategories(categories, createCategories(data))
